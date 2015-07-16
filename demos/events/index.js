@@ -8,7 +8,14 @@ var SurverEditor = React.createClass({
 
     render() {
         return (
-            <div></div>
+            <div className="surver-editor">
+                <div className="row">
+                    <aside className="sidebar col-md-3">
+                        <h2>Modules</h2>
+                        <DraggableQuestions />
+                    </aside>
+                </div>
+            </div>
         );
     }
 });
