@@ -28,7 +28,7 @@ var HelloWorld = React.createClass({
                 <ul ref="rul">
                 {list}
                 </ul>
-                <button onClick={this.add}>Click me .</button>
+                <button onClick={this.add}>click me .</button>
             </div>
         );
     }
